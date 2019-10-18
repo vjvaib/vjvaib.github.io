@@ -36,15 +36,20 @@ Below is a non-exhaustive list of some free API's you can use. There are _many_ 
 ## 
 
 
-* Be approximately 5 minutes in length
-* Show off all features of the app
-* Explain the technical details
-* Explain the technical challenges
+* First created ajax request form and linked it with external API mentioned above
+* Worked on the DOM manipulation to get the required data input fields
+* With the help of Bootstrap which took care of majority of my CSS work
+* Created intreactive website for subjects who wish to retrive the data.
 * Explain which improvements you might make
+* > would make it more interactive
+* > Create some more pages
+* > Will try to retreive some more data.
+  
 
 
 
 THANK YOU !
 
-Vaibhav Joshi
+Vaibhav 
+<br>
 Singapore
