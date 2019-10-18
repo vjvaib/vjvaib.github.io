@@ -1,6 +1,6 @@
 ![](/ga_cog.png)
 
-# Project #1: Your first application or game
+# Project #1: My first application
 
 ## Project Details
 
