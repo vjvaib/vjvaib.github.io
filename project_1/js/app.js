@@ -21,6 +21,7 @@ $(() => {
       //console.log(newData);
 
 
+      
       //dom manipulation to get the required data from API.
 
       $('#descr').html(newData.FullStudiesResponse.FullStudies[0].Study.ProtocolSection.DescriptionModule.BriefSummary);
