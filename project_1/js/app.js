@@ -21,7 +21,7 @@ $(() => {
       //console.log(newData);
 
 
-      //dom manipulation
+      //dom manipulation to get the required data from API.
 
       $('#descr').html(newData.FullStudiesResponse.FullStudies[0].Study.ProtocolSection.DescriptionModule.BriefSummary);
 
@@ -40,7 +40,7 @@ $(() => {
       $('#crite').html(newData.FullStudiesResponse.FullStudies[0].Study.ProtocolSection.EligibilityModule.EligibilityCriteria);
 
 
-      $('#cont').html(newData.FullStudiesResponse.FullStudies[0].Study.ProtocolSection.ContactsLocationsModule.CentralContactList.CentralContact[0].CentralContactName);
+     $('#cont').html(newData.FullStudiesResponse.FullStudies[0].Study.ProtocolSection.ContactsLocationsModule.CentralContactList.CentralContact[0].CentralContactName);
 
     },
     () => {
