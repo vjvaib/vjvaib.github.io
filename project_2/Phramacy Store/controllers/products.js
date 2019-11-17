@@ -105,6 +105,11 @@ products.put ( '/:id/buy' , ( req , res ) => {
 //___________________
 //Seed Route - Vist ONCE to populate database
 //___________________
+
+
+//___________________
+//Seed Route - Vist ONCE to populate database
+//___________________
 products.get( '/seed/newproducts' , ( req, res ) => {
 
   // const newProducts = [
@@ -200,13 +205,13 @@ products.get( '/seed/newproducts' , ( req, res ) => {
   // }
   // ];
 
-
 	Product.create( newProducts , ( err, product ) => {
       if ( err ) { console.log( err ); }
 		  console.log( "SEED: NEW PRODUCTS CREATED!" );
 		  res.redirect( '/products' );
-	});
+  });
 });
+
 
 //___________________
 //ALTERNATE Seed Route - Vist ONCE to populate database
