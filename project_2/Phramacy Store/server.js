@@ -1,13 +1,14 @@
 //___________________
 //Dependencies
 //___________________
+require('dotenv').config();
 const express = require("express");
 const methodOverride = require("method-override");
 const mongoose = require("mongoose");
 const app = express();
 
 //___________________
-//Port
+//Port - this is mainly for collaboration on the project.so different users can work on different ports
 //___________________
 const PORT = process.env.PORT || 3000;
 
