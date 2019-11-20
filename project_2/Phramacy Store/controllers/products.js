@@ -89,6 +89,7 @@ products.delete (  '/:id' , ( req , res ) => {
   });
 });
 
+
 //___________________
 //Buy Route
 //___________________
@@ -111,99 +112,6 @@ products.put ( '/:id/buy' , ( req , res ) => {
 //Seed Route - Vist ONCE to populate database
 //___________________
 products.get( '/seed/newproducts' , ( req, res ) => {
-
-  // const newProducts = [
-  // {
-  // _id: "58e913abb7304c0e0f20d0d8",
-  // name: "Beans",
-  // description: "A small pile of beans. Buy more beans for a big pile of beans.",
-  // img: "https://www.chemist-4-u.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/a/v/avomine25mg/Avomine_Travel_Sickness_25mg_(Promethazine)_-_28_Tablets_31.jpg",
-  // price: 5,
-  // qty: 99,
-  // __v: 0
-  // },
-  // {
-  // _id: "58e913abb7304c0e0f20d0da",
-  // name: "Beautiful Bins",
-  // description: "A stack of colorful bins for your beans and bones.",
-  // img: "http://www.clipartbest.com/cliparts/9cz/rMM/9czrMMBcE.jpeg",
-  // price: 7000,
-  // qty: 1,
-  // __v: 0
-  // },
-  // {
-  // _id: "58e913abb7304c0e0f20d0d9",
-  // name: "Bones",
-  // description: "It's just a bag of bones.",
-  // img: "https://www.chemist-4-u.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/a/v/avomine25mg/Avomine_Travel_Sickness_25mg_(Promethazine)_-_28_Tablets_31.jpg",
-  // price: 25,
-  // qty: 0,
-  // __v: 0
-  // },
-  // {
-  // _id: "58e9452e28ccf4146d4c485e",
-  // name: "Water Rose",
-  // img: "",
-  // description: "Beautiful, ephemeral, assembly required",
-  // qty: 5,
-  // __v: 0,
-  // price: 1000000
-  // },
-  // {
-  // _id: "58e94d443931ca152bdd4478",
-  // name: "All Natural Organic Non-GM0 Pure 100% Natural Lime",
-  // img: "http://wallpaper-gallery.net/images/images/images-17.jpg",
-  // description: "Forget your fears of agricultural genetic engineering and take your taste buds back to the beginning of time with this authentic unaltered fruit",
-  // price: 17,
-  // qty: 72,
-  // __v: 0
-  // },
-  // {
-  // _id: "58e956e73931ca152bdd4479",
-  // name: "Mantis Shrimp (tamed)",
-  // img: "http://otlibrary.com/wp-content/gallery/mantis-shrimp/mantis-shrimp.jpg",
-  // description: "Sustainably raised, cage-free, docile mantis shrimp. Makes a for a cuddly companion as long as you never make direct eye contact! Notice: this item is gluten-free, should your relationship go south",
-  // price: 887,
-  // qty: 0,
-  // __v: 0
-  // },
-  // {
-  // _id: "58e958243931ca152bdd447a",
-  // name: "Kohlrabi",
-  // img: "http://canelasf.com/wp-content/uploads/2015/02/kohlrabi.jpg",
-  // description: "Get a jump on the next superfood craze.",
-  // price: 6,
-  // qty: 913462,
-  // __v: 0
-  // },
-  // {
-  // _id: "58e9893444738817298b3a3b",
-  // name: "Yogalates Fitness Machine 1000",
-  // img: "https://s-media-cache-ak0.pinimg.com/564x/a8/4f/05/a84f051bf47e41382e4becd4a3d05214.jpg",
-  // description: "Stop wasting your time doing one exercise at a time! With the YFM1000 you can do yoga and pilates at the same time! ",
-  // price: 3199,
-  // qty: 14,
-  // __v: 0
-  // },
-  // {
-  // _id: "58eba62854241b05b274dc78",
-  // name: "Bell Jars",
-  // img: "https://s-media-cache-ak0.pinimg.com/736x/0a/6f/b6/0a6fb62caa11cfdb68c7c12a2620c012.jpg",
-  // description: "Capture the beauty of anything and don't let it get away! Formaldehyde sold separatey ",
-  // price: 49.99,
-  // qty: 49,
-  // __v: 0
-  // },
-  // {
-  // _id: "58ed05dfa2b6901441a43419",
-  // name: "Portal to 5th Dimension",
-  // img: "https://i-cf5.gskstatic.com/content/dam/cf-consumer-healthcare/panadol/en_in/adult/productshots/crocin650mg/455x455.jpg?auto=format",
-  // description: "Bored of your neighborhood? Bored of your typical vacation? Go to the 5th dimension",
-  // price: 1,
-  // qty: 54,
-  // __v: 0
-  // }
-  // ];
 
 	Product.create( newProducts , ( err, product ) => {
       if ( err ) { console.log( err ); }

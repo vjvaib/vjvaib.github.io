@@ -1,93 +1,74 @@
 // module.exports = [
 //   {
-//   _id: "58e913abb7304c0e0f20d0d8",
-//   name: "Beans",
-//   description: "A small pile of beans. Buy more beans for a big pile of beans.",
-//   img: "https://www.chemist-4-u.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/a/v/avomine25mg/Avomine_Travel_Sickness_25mg_(Promethazine)_-_28_Tablets_31.jpg",
-//   price: 5,
-//   qty: 99,
-//   __v: 0
-//   },
-//   {
-//   _id: "58e913abb7304c0e0f20d0da",
-//   name: "Beautiful Bins",
-//   description: "A stack of colorful bins for your beans and bones.",
-//   img: "https://www.chemist-4-u.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/a/v/avomine25mg/Avomine_Travel_Sickness_25mg_(Promethazine)_-_28_Tablets_31.jpg",
-//   price: 7000,
-//   qty: 1,
-//   __v: 0
-//   },
-//   {
-//   _id: "58e913abb7304c0e0f20d0d9",
-//   name: "Bones",
-//   description: "It's just a bag of bones.",
-//   img: "https://www.chemist-4-u.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/a/v/avomine25mg/Avomine_Travel_Sickness_25mg_(Promethazine)_-_28_Tablets_31.jpg",
-//   price: 25,
-//   qty: 0,
-//   __v: 0
-//   },
-//   {
-//   _id: "58e9452e28ccf4146d4c485e",
-//   name: "Water Rose",
-//   img: "https://www.chemist-4-u.com/media/catalog/product/cache/1/image/450x/9df78eab33525d08d6e5fb8d27136e95/a/v/avomine25mg/Avomine_Travel_Sickness_25mg_(Promethazine)_-_28_Tablets_31.jpg",
-//   description: "Beautiful, ephemeral, assembly required",
-//   qty: 5,
-//   __v: 0,
-//   price: 1000000
-//   },
-//   {
 //   _id: "58e94d443931ca152bdd4478",
-//   name: "All Natural Organic Non-GM0 Pure 100% Natural Lime",
-//   img: "https://s-media-cache-ak0.pinimg.com/736x/c4/7c/e2/c47ce206c27b614062ff1079642e42c6--limes-rainbow-connection.jpg",
-//   description: "Forget your fears of agricultural genetic engineering and take your taste buds back to the beginning of time with this authentic unaltered fruit",
-//   price: 17,
-//   qty: 72,
-//   __v: 0
-//   },
-//   {
-//   _id: "58e956e73931ca152bdd4479",
-//   name: "Mantis Shrimp (tamed)",
-//   img: "https://i-cf5.gskstatic.com/content/dam/cf-consumer-healthcare/panadol/en_in/adult/productshots/crocin650mg/455x455.jpg?auto=format",
-//   description: "Sustainably raised, cage-free, docile mantis shrimp. Makes a for a cuddly companion as long as you never make direct eye contact! Notice: this item is gluten-free, should your relationship go south",
-//   price: 887,
-//   qty: 0,
+//   name: "Avomine Tablets",
+//   description: "Avomine belongs to a group of medicines called phenothiazines. Avomine is used to prevent or treat motion sickness.",
+//   img: "http://images-its.chemistdirect.co.uk/Avomine-Tablets-25mg-9722.jpg?o=lQNAvqd6mqsJUhf6BPc@QGGpttsj&V=atbB&w=297&h=297",
+//   price: 25,
+//   qty: 98,
 //   __v: 0
 //   },
 //   {
 //   _id: "58e958243931ca152bdd447a",
-//   name: "Kohlrabi",
-//   img: "http://www.thehealthjournals.com/wp-content/uploads/2014/02/kohlrabi-1.jpg",
-//   description: "Get a jump on the next superfood craze. Kohlrabi's superiority is marked by its tricky to spell name. Text all your friends: You are going to live forever with the power of kholrabi",
+//   name: "TIGER Balm Rouge",
+//   description: "Whether you're a world class athlete or weekend warrior, you can trust Tiger Balm for proven pain relief",
+//   img: "https://images-na.ssl-images-amazon.com/images/I/71TlwpvhkSL._SL1366_.jpg",
 //   price: 6,
-//   qty: 913462,
+//   qty: 197,
 //   __v: 0
 //   },
 //   {
 //   _id: "58e9893444738817298b3a3b",
-//   name: "Yogalates Fitness Machine 1000",
-//   img: "https://s-media-cache-ak0.pinimg.com/564x/a8/4f/05/a84f051bf47e41382e4becd4a3d05214.jpg",
-//   description: "Stop wasting your time doing one exercise at a time! With the YFM1000 you can do yoga and pilates at the same time! ",
-//   price: 3199,
-//   qty: 14,
-//   __v: 0
-//   },
-//   {
-//   _id: "58eba62854241b05b274dc78",
-//   name: "Bell Jars",
-//   img: "https://s-media-cache-ak0.pinimg.com/736x/0a/6f/b6/0a6fb62caa11cfdb68c7c12a2620c012.jpg",
-//   description: "Capture the beauty of anything and don't let it get away! Formaldehyde sold separatey ",
-//   price: 49.99,
-//   qty: 49,
+//   name: "Neosporin Ointment",
+//   description: "This medication is used to prevent and treat minor skin infections caused by small cuts, scrapes, or burns. ... This product contains neomycin, bacitracin, and polymyxin, antibiotics that work by stopping the growth of bacteria.",
+//   img: "https://images-na.ssl-images-amazon.com/images/I/81bfKqBlCkL._SL1500_.jpg",
+//   price: 14,
+//   qty: 21,
 //   __v: 0
 //   },
 //   {
 //   _id: "58ed05dfa2b6901441a43419",
-//   name: "Portal to 5th Dimension",
-//   img: "https://images-assets.nasa.gov/image/PIA20912/PIA20912~thumb.jpg",
-//   description: "Bored of your neighborhood? Bored of your typical vacation? Go to the 5th dimension",
-//   price: 1,
-//   qty: 54,
+//   name: "Bandage",
+//   img: "https://s3.images-iherb.com/bda/bda05635/w/1.jpg",
+//   description: "A bandage is a piece of material used either to support a medical device such as a dressing or splint, or on its own to provide support to or to restrict the movement of a part of the body. When used with a dressing, the dressing is applied directly on a wound, and a bandage used to hold the dressing in place.",
+//   price: 3,
+//    qty: 54,
+//   __v: 0,
+// 
+//   },
+//   {
+//   _id: "5dd0c73f2a75750888c11de6",
+//   name: "Vitamin B12 Tabs with Vitamin C",
+//   img: "https://images-na.ssl-images-amazon.com/images/I/71S0heUHAEL._SX466_.jpg",
+//   description: "This product is a combination of B vitamins used to treat or prevent vitamin deficiency due to poor diet, certain illnesses, alcoholism, or during pregnancy",
+//   price: 24,
+//   qty: 50,
 //   __v: 0
-//   }
-//   ];
-  
+//   },
+//   {
+//   _id: "5dd0c8182a75750888c11de7",
+//   name: "Baby Ddrops",
+//   img: "https://s3.images-iherb.com/ddp/ddp00006/w/5.jpg",
+//   description: "Uses Vitamin D (ergocalciferol-D2, cholecalciferol-D3, alfacalcidol) is a fat-soluble vitamin that helps your body absorb calcium and phosphorus. Having the right amount of vitamin D, calcium, and phosphorus is important for building and keeping strong bones",
+//   price: 21,
+//   qty: 65,
+//   __v: 0
+//   },
+//   {
+//   _id: "5dd53fcaffc95359d83e0c5b",
+//   name: "Iodine Solution",
+//   img: "https://s3.images-iherb.com/lfh/lfh91547/v/1.jpg",
+//   description: " Three drops of Liquid Iodine Plus provides 150 mcg of iodine per daily serving which is the recommended daily allowance that the body needs.",
+//   price: 6.4,
+//   qty: 23,
+//   __v: 0
+//   },
+//   {
+//   _id: "5dd540bbffc95359d83e0c5c",
+//   name: "Vicks Vaporizer",
+//   img: "https://www.fgb.com.au/sites/base.fgb.com.au/files/product/image/Vicks_VAPORIZER_BOX_280x280.jpg",
+//   description: "Household heating systems in the winter and air conditioners in the summer can rob the indoor air of its natural moisture. The lungs and respiratory tract are dependent on moisture to function effectively ",
+//   price: 74.95,
+//   qty: 10,
+//   __v: 0
+//   },
