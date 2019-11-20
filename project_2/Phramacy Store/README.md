@@ -1,6 +1,6 @@
 [![General Assembly Logo](/ga_cog.png)](https://generalassemb.ly)
 
-# Mongoose Store
+# Pharmacy Store
 
 Make a product inventory manager with full CRUD using Mongoose.
 
